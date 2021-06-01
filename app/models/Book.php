@@ -8,13 +8,19 @@ use Eloquent;
  * Class Book
  *
  * @property-read  int    $id
- * @property       string $name
- * @property       string $email {@type email}
- * @property       string $message
+ * @property       string $title
+ * @property       string $description {@type longText}
+ * @property       string $author
+ * @property       string $isbn
+ * @property       string $url
+ * @property       string $price {@type decimal}
+ * @property       string $tatus {@type boolean}
+ * @property       string $publication_date {@type year}
  * @property-read  string $created_at {@type datetime}
  * @property-read  string $updated_at {@type datetime}
  * 
  */
+
 class Book extends Eloquent
 {
     
