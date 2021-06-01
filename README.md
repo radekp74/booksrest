@@ -1,6 +1,7 @@
 # Books REST APIs
 
 docker-compose up -d --build
+
 docker-compose exec restapi composer dump-autoload
 
 ```
