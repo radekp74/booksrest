@@ -2,7 +2,7 @@
 
 docker-compose up -d --build
 
-docker-compose exec restapi composer dump-autoload
+composer dump-autoload
 
 ```
 ## Swagger documentation
